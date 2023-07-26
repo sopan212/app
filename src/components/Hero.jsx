@@ -1,7 +1,7 @@
 export default function Hero(){
     return(
         <>
-        <div className="px-8 py-8 bg-secondary ">
+        <div className="px-8 py-8 bg-secondary mb-12">
             <div className="flex flex-col items-center space-y-4 md:flex-row md:space-y-0 md:space-x-4 md:justify-center ">
                 {/* content */}
                 <div className="flex flex-col  md:items-left md:justify-center ">

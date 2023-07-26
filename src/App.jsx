@@ -3,6 +3,7 @@ import Hero from "./components/Hero";
 import Header from "./global/header";
 import Main from "./components/Main";
 import Content from "./components/content";
+import Subcribe from "./components/Subcribe";
 
 export default function App() {
   
@@ -14,6 +15,7 @@ export default function App() {
       <Hero/>
       <Main/>
       <Content/>
+      <Subcribe/>
     </body>
 
     </>
