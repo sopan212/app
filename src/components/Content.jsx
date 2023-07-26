@@ -1,27 +1,28 @@
 export default function Content(){
     return(
-        <section id="Content" className="bg-secondary mb-12 py-12">
-            <div className="text-4xl text-primary text-center mb-12 mt-12">
+        <section id="Content" className="bg-secondary ">
+            <div className="text-4xl py-4 text-primary text-center">
                 Daftar Rekanan
             </div>
-            <div className="flex flex-col items-center justify-center font-mono space-y-8 md:px-8 md:grid md:grid-cols-4 md:gap-4 md:space-x-4">
-                <div className="px-5 py-5 rounded-xl shadow-lg bg-slate-200 text-center w-2xl">
-                    <img src="../../public/assets/icons/LambangUGM.png" alt="" className="w-64 text-center"  />
-                    <h2 className="text-2xl font-[sans-serif] font-semibold mt-4">Universitas Gadjah Mada</h2>
+            <div className="flex flex-col items-center justify-center max-w-6xl h-[450px] font-mono px-4 py-2 md:mx-auto md:flex-row md:items-center md:justify-center md:space-x-4 md:space-y-0">
+                <div className="px-3 py-6 rounded-xl shadow-lg bg-slate-200 w-2xl ">
+                    <img src="../../public/assets/icons/LambangUGM.png" alt="" className="w-44 mx-auto"  />
+                    <h2 className="text-2xl font-[sans-serif] font-semibold mt-4 text-center">Universitas Gadjah Mada</h2>
                 </div>
-                <div className="px-5 py-5 rounded-xl shadow-lg bg-slate-200 text-center">
-                    <img src="../../public/assets/icons/LambangUGM.png" alt="" className="w-64 "  />
-                    <h2 className="text-2xl font-[sans-serif] font-semibold mt-4">Universitas Gadjah Mada</h2>
+                <div className="px-3 py-6 rounded-xl shadow-lg bg-slate-200 w-2xl ">
+                    <img src="../../public/assets/icons/LambangUGM.png" alt="" className="w-44 mx-auto"  />
+                    <h2 className="text-2xl font-[sans-serif] font-semibold mt-4 text-center">Universitas Gadjah Mada</h2>
                 </div>
-                <div className="px-5 py-5 rounded-xl shadow-lg bg-slate-200 text-center">
-                    <img src="../../public/assets/icons/LambangUGM.png" alt="" className="w-64 "  />
-                    <h2 className="text-2xl font-[sans-serif] font-semibold mt-4">Universitas Gadjah Mada</h2>
+                <div className="px-3 py-6 rounded-xl shadow-lg bg-slate-200 w-2xl ">
+                    <img src="../../public/assets/icons/LambangUGM.png" alt="" className="w-44 mx-auto"  />
+                    <h2 className="text-2xl font-[sans-serif] font-semibold mt-4 text-center">Universitas Gadjah Mada</h2>
                 </div>
-                <div className="px-5 py-5 rounded-xl shadow-lg bg-slate-200 text-center">
-                    <img src="../../public/assets/icons/LambangUGM.png" alt="" className="w-64 "  />
-                    <h2 className="text-2xl font-[sans-serif] font-semibold mt-4">Universitas Gadjah Mada</h2>
+                <div className="px-3 py-6 rounded-xl shadow-lg bg-slate-200 w-2xl ">
+                    <img src="../../public/assets/icons/LambangUGM.png" alt="" className="w-44 mx-auto"  />
+                    <h2 className="text-2xl font-[sans-serif] font-semibold mt-4 text-center">Universitas Gadjah Mada</h2>
                 </div>
             </div>
+            
         </section>
     )
-}
+} 
