@@ -1,8 +1,11 @@
-
-export default function Logo(){
+// import IconContact from '../../public/assets/icons/phone.svg'
+export default function Contact(){
     return(
-        <div id="home" className="max-w-sm">
+        <div id="home" className="flex space-x-2 items-center max-w-sm  ">
+            <img src="../../public/assets/icons/phone.svg" alt="" className="text-primary"/>   
             <span className='text-normal text-light text-primary '>+6232232131</span>
+            {/* <IconContact/> */}
+           
         </div>
     )
 }
