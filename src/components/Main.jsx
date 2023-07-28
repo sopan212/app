@@ -1,3 +1,6 @@
+import { Link } from "react-router-dom"
+
+
 export default function Main(){
     return(
         <>
@@ -9,11 +12,14 @@ export default function Main(){
           
             {/* Card container */}
             <div></div>
-                <a href="http://" className=" group px-4 py-4 max-w-4xl rounded-lg shadow-sm bg-secondary mb-4 ">
+            {/* <Router> */}
+                <Link to="/books" className=" group px-4 py-4 max-w-4xl rounded-lg shadow-sm bg-secondary mb-4">
+                <a href="">
                     <img src="../../public/assets/book/textbooks.png" alt="" className="w-72 group-hover:-translate-y-3 duration-300" />
                     <div className="px-5 py-3 border border-border rounded-lg shadow-sm mt-2 text-center font-mono hover:bg-primary hover:bg-opacity-50">Books</div>
-
                 </a>
+                </Link>
+             
 
                 <a href="http://" className=" group px-4 py-4 max-w-4xl rounded-lg shadow-sm bg-secondary mb-4">
                     <img src="../../public/assets/book/spotify.png" alt="" className="w-72 group-hover:-translate-y-3 duration-300" />
@@ -26,7 +32,7 @@ export default function Main(){
                     <div className="px-5 py-3 border border-border rounded-lg shadow-sm mt-2 text-center font-mono hover:bg-primary hover:bg-opacity-50">Merch</div>
 
                 </a>
-
+                {/* </Router> */}
         </div>
         </div>
         </>

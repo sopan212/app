@@ -1,26 +1,16 @@
-
-import Hero from "./components/Hero";
-import Header from "./global/header";
-import Main from "./components/Main";
-import Content from "./components/content";
-import Subcribe from "./components/Subcribe";
-import { Footer } from "./global/Footer";
+import { BrowserRouter as Router,Route,Routes } from "react-router-dom"
 // import { EmblaCarousel } from "./components/Carosel";
-
+import Home from  "./pages/Home.jsx"
+import Books from "./pages/Buku.jsx"
 export default function App() {
-  
-   
   return (
     <>
-    <body>
-      <Header/>
-      {/* <EmblaCarousel/> */}
-      <Hero/>
-      <Main/>
-      <Content/>
-      <Subcribe/>
-      <Footer/>
-    </body>
+  <Router>
+    <Routes>
+    <Route path="/" element={<Home/>}/>
+    <Route path="/books" element={<Books/>}/>
+    </Routes>
+  </Router>
 
     </>
   )
