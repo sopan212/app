@@ -1,4 +1,4 @@
-
+import Logo from "../../public/assets/icons/logo.png"
 
 export default function Subcribe() {
   return (
@@ -6,7 +6,7 @@ export default function Subcribe() {
        <div className="flex flex-col items-center justify-center space-y-6 px-4 py-4 w-96 m-auto rounded-lg shadow-lg md:flex-row md:justify-start md:space-y-0 md:space-x-4 md:w-[750px] md:h-[250px]">
        {/* image */}
        <div className="max-w-sm border border-border shadow-sm rounded">
-           <img src="../../public/assets/icons/logo.png" alt="w-72 h-72 md:w-40 md:h-40 "/>
+           <img src={Logo} alt="w-72 h-72 md:w-40 md:h-40 "/>
        </div>
        {/* Text */}
        <div className="flex flex-col  justify-start md:space-y-3 ">

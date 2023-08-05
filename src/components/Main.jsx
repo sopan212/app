@@ -1,5 +1,7 @@
 import { Link } from "react-router-dom"
-
+import TextBook from "../../public/assets/book/textbooks.png"
+import Spotify from "../../public/assets/book/spotify.png"
+import Baju from "../../public/assets/book/baju.png"
 
 export default function Main(){
     return(
@@ -15,20 +17,20 @@ export default function Main(){
             {/* <Router> */}
                 <Link to="/books" className=" group px-4 py-4 max-w-4xl rounded-lg shadow-sm bg-secondary mb-4">
                 <a href="">
-                    <img src="../../public/assets/book/textbooks.png" alt="" className="w-72 group-hover:-translate-y-3 duration-300" />
+                    <img src={TextBook} alt="" className="w-72 group-hover:-translate-y-3 duration-300" />
                     <div className="px-5 py-3 border border-border rounded-lg shadow-sm mt-2 text-center font-mono hover:bg-primary hover:bg-opacity-50">Books</div>
                 </a>
                 </Link>
              
 
-                <a href="http://" className=" group px-4 py-4 max-w-4xl rounded-lg shadow-sm bg-secondary mb-4">
-                    <img src="../../public/assets/book/spotify.png" alt="" className="w-72 group-hover:-translate-y-3 duration-300" />
+                <a href="" className=" group px-4 py-4 max-w-4xl rounded-lg shadow-sm bg-secondary mb-4">
+                    <img src={Spotify} alt="" className="w-72 group-hover:-translate-y-3 duration-300" />
                     <div className="px-5 py-3 border border-border rounded-lg shadow-sm mt-2 text-center font-mono hover:bg-primary hover:bg-opacity-50">Spotify</div>
 
                 </a>
 
-                <a href="http://" className=" group px-4 py-4 max-w-4xl rounded-lg shadow-sm bg-secondary mb-4">
-                    <img src="../../public/assets/book/baju.png" alt="" className="w-72 group-hover:-translate-y-3 duration-300" />
+                <a href="" className=" group px-4 py-4 max-w-4xl rounded-lg shadow-sm bg-secondary mb-4">
+                    <img src={Baju} alt="" className="w-72 group-hover:-translate-y-3 duration-300" />
                     <div className="px-5 py-3 border border-border rounded-lg shadow-sm mt-2 text-center font-mono hover:bg-primary hover:bg-opacity-50">Merch</div>
 
                 </a>
