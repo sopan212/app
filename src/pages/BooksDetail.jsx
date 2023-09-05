@@ -1,12 +1,16 @@
 
+
 import { Footer } from '../global/Footer'
 import Header from '../global/Header';
 
-export default function BooksDetail(props) {
+export default function BooksDetail() {
+
+ 
   return (
    <section>
     <Header/>
-{console.log(this.props)}
+{/* {console.log(`booksID: ${booksID}`)} */}
+<h1>Books Details</h1>
     <Footer/>
    </section>
   )

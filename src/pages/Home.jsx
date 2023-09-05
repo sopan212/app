@@ -7,6 +7,7 @@ import { Footer } from "../global/Footer";
 import Header from "../global/Header";
 
 
+
 export default function Home() {
   return (
 <div>
