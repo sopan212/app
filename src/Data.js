@@ -1,6 +1,6 @@
 const Data = [
     {
-        id:1,
+        id:"1",
         judul:"Menalar Menggugah Dunia–1",
         penulis:"Yahya Agung Kuntadi",
         penerbit:"Komunitas Gadjah Mada",
@@ -12,7 +12,7 @@ const Data = [
         deskripsi:"Perkembangan jaman begitu cepat bergerak. Tak terasa sekarang dunia menjejak era digital. Ada satu cerita yang begitu mengena bagi saya saat kuliah di IPB pada tahun ke-dua. Seorang dosen muda yang baru pulang dari Kanada, belajar intelegensia buatan (artificial intellegent) memberi kuliah di kelas sistem informasi manajemen terkait perkembangan teknologi komputer. Beliau mengatakan bahwa satu saat nanti layar komputer akan bisa disentuh dan digunakan untuk interaksi sebagaimana keyboard komputer. Diperagakan pula olehnya dengan menyentuh layar monitor komputer IBM PC AT yang tentu saja hanya bergeming dan tidak terjadi apapun. Dua dekade kemudian mulai bermunculan telepon genggam berbagai merek dengan teknologi layar yang harus disentuh untuk digunakan berbagai hal: komunikasi dan informasi.  Nubuat dosen muda IPB di kelas sistem informasi manajemen tersebut telah digenapi. Masih banyak lagi contoh perubahan jaman yang dipicu dengan hadirnya teknologi informasi, yang disebut internet. Semakin banyak informasi dapat diketahui dengan mudah dan cepat oleh berbagai lapisan masyarakat dari bermacam penjuru dunia. World Wide Web atau disingkat www menjadi tulang punggung jejaring informasi di era milenial demikian sebutan banyak orang terhadap jaman abad 21. Dan berbasis pada World Wide Web itulah, terus bermunculan segala macam informasi yang bertabur, berserak dan siap diakses secara cepat-mudah oleh manusia-manusia saat ini maupun akan datang karena informasi itu bersifat kekal tidak bisa di-delete bila sudah menjadi viral dan ber-cloning serta miroring dari satu server ke banyak server lainnya. Rimba belantara informasi"
     },
     {
-        id:2,
+        id:"2",
         judul:"Menalar Menggugah Dunia–2",
         penulis:"Yahya Agung Kuntadi",
         penerbit:"Komunitas Gadjah Mada",
@@ -24,7 +24,7 @@ const Data = [
         deskripsi:"Perkembangan jaman begitu cepat bergerak. Tak terasa sekarang dunia menjejak era digital. Ada satu cerita yang begitu mengena bagi saya saat kuliah di IPB pada tahun ke-dua. Seorang dosen muda yang baru pulang dari Kanada, belajar intelegensia buatan (artificial intellegent) memberi kuliah di kelas sistem informasi manajemen terkait perkembangan teknologi komputer. Beliau mengatakan bahwa satu saat nanti layar komputer akan bisa disentuh dan digunakan untuk interaksi sebagaimana keyboard komputer. Diperagakan pula olehnya dengan menyentuh layar monitor komputer IBM PC AT yang tentu saja hanya bergeming dan tidak terjadi apapun.Dua dekade kemudian mulai bermunculan telepon genggam berbagai merek dengan teknologi layar yang harus disentuh untuk digunakan berbagai hal: komunikasi dan informasi.  Nubuat dosen muda IPB di kelas sistem informasi manajemen tersebut telah digenapi.Masih banyak lagi contoh perubahan jaman yang dipicu dengan hadirnya teknologi informasi, yang disebut internet. Semakin banyak informasi dapat diketahui dengan mudah dan cepat oleh berbagai lapisan masyarakat dari bermacam penjuru dunia. World Wide Web atau disingkat www menjadi tulang punggung jejaring informasi di era milenial demikian sebutan banyak orang terhadap jaman abad 21. Dan berbasis pada World Wide Web itulah, terus bermunculan segala macam informasi yang bertabur, berserak dan siap diakses secara cepat-mudah oleh manusia-manusia saat ini maupun akan datang karena informasi itu bersifat kekal tidak bisa di-delete bila sudah menjadi viral dan ber-cloning serta miroring dari satu server ke banyak server lainnya. Rimba belantara informasi."
     },
        {
-        id:3,
+        id:"3",
         judul:"Menalar Menggugah Dunia–3",
         penulis:"Yahya Agung Kuntadi",
         penerbit:"Komunitas Gadjah Mada",
@@ -36,7 +36,7 @@ const Data = [
         deskripsi:"Perkembangan jaman begitu cepat bergerak. Tak terasa sekarang dunia menjejak era digital. Ada satu cerita yang begitu mengena bagi saya saat kuliah di IPB pada tahun ke-dua. Seorang dosen muda yang baru pulang dari Kanada, belajar intelegensia buatan (artificial intellegent) memberi kuliah di kelas sistem informasi manajemen terkait perkembangan teknologi komputer. Beliau mengatakan bahwa satu saat nanti layar komputer akan bisa disentuh dan digunakan untuk interaksi sebagaimana keyboard komputer. Diperagakan pula olehnya dengan menyentuh layar monitor komputer IBM PC AT yang tentu saja hanya bergeming dan tidak terjadi apapun. Dua dekade kemudian mulai bermunculan telepon genggam berbagai merek dengan teknologi layar yang harus disentuh untuk digunakan berbagai hal: komunikasi dan informasi.  Nubuat dosen muda IPB di kelas sistem informasi manajemen tersebut telah digenapi.Masih banyak lagi contoh perubahan jaman yang dipicu dengan hadirnya teknologi informasi, yang disebut internet. Semakin banyak informasi dapat diketahui dengan mudah dan cepat oleh berbagai lapisan masyarakat dari bermacam penjuru dunia. World Wide Web atau disingkat www menjadi tulang punggung jejaring informasi di era milenial demikian sebutan banyak orang terhadap jaman abad 21. Dan berbasis pada World Wide Web itulah, terus bermunculan segala macam informasi yang bertabur, berserak dan siap diakses secara cepat-mudah oleh manusia-manusia saat ini maupun akan datang karena informasi itu bersifat kekal tidak bisa di-delete bila sudah menjadi viral dan ber-cloning serta miroring dari satu server ke banyak server lainnya. Rimba belantara informasi."
     },
      {
-        id:4,
+        id:"4",
         judul:"Catatan Seorang Pegawai",
         penulis:"Tobagus Manshor Makmun",
         penerbit:"Komunitas Gadjah Mada",
@@ -48,7 +48,7 @@ const Data = [
         deskripsi:"Jalan menuju satu, satu tekad, satu tujuan peringkat SatuTahun 2015 merupakan tahun bersejarah bagi KPP Pratama Batu, karena pada tahu 2015 KPP Pratama Batu mempu mencapai realisai penerimaan pajak 130,62% dari target penerimaan pajak, selain itu Sejarah baru telah terukir yaitu peringkat satu diantara 341 kantor pelayanan pajak yang ada di Indonesia dalam hal realisasi penerimaan pajak"
     },
          {
-        id:5,
+        id:"5",
         judul:"Prioritas Pertimbangan Industri untuk Adopsi Inovasi dari Universitas",
         penulis:"Yahya Agung Kuntadi",
         penerbit:"Komunitas Gadjah Mada",
@@ -60,7 +60,7 @@ const Data = [
         deskripsi:"Indonesia setelah merdeka pada 17 Agustus 1945 memiliki janji dan harapan bagi rakyatnya untuk dipenuhi, yaitu masyarakat adil dan makmur. Sesuatu yang ideal dan penuh kerja keras untuk mewujudkannya hingga saat inipun masih terus dikerjakan oleh generasi demi generasi. Ada banyak sektor dan bidang kerja yang harus digarap tiap orang yang mengaku Indonesia untuk berkontribusi mewujudkan janji dan harapan tersebut. Salah satunya adalah pemanfaatan ilmu pengetahuan dan teknologi yang diejawantahkan dalam inovasi. Melalui inovasi maka janji dan harapan kemerdekaan Indonesia dapat diwujudkan. Inovasi sebagai perwujudan lmu pengetahuan dan teknologi dapat dihadirkan oleh universitas sebagai salah satu sumber inovasi. Namun inovasi dari universitas perlu dimanfaatkan melalui adopsi inovasi oleh banyak pihak, salah satunya adalah Industri. Sebagai salah satu penggerak roda perekonomian maka industri memiliki peran penting dan strategis. Kolaborasi universitas dan industri menjadi hal yang tak terelakkan lagi bila inovasi dari universitas ingin bermanfaat secara maksimal bagi masyarakat melalui industri.Kolaborasi universitas dan industri memang terbilang masih muda dibanding hal-hal lain yang dikaji dan dipelajari kaum akademisi di pelbagai pusat-pusat edukasi maupun riset. Namun kolaborasi universitas dan industri harus dipahami secara utuh agar bermanfaat semaksimal mungkin bagi masyarakat. Salah satu hal yang perlu dipahami lebih baik adalah pemanfaatan inovasi melalui adopsi inovasi"
     },
            {
-        id:6,
+        id:"6",
         judul:"Pro dan Kontra Apakah Kapitalisme Tetap Hidup di Masa Depan",
         penulis:"Program Doktor Manajemen Bisnis (DMB) Angkatan 11",
         penerbit:"Komunitas Gadjah Mada",
@@ -72,7 +72,7 @@ const Data = [
         deskripsi:"-"
     },
           {
-        id:7,
+        id:"7",
         judul:"Mengenal Perilaku Pengguna WhatsApp Grup",
         penulis:"Yahya Agung Kuntadi",
         penerbit:"Komunitas Gadjah Mada",
@@ -85,7 +85,7 @@ const Data = [
     },
     
           {
-        id:8,
+        id:"8",
         judul:"Kajian Karakteristik Riset dan Pengembangan Industri Besar",
         penulis:"Yahya Agung Kuntadi",
         penerbit:"Komunitas Gadjah Mada",
