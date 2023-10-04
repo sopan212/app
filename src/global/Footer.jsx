@@ -1,7 +1,7 @@
 import Info from "../../public/assets/icons/info.svg"
 import Help from "../../public/assets/icons/help.svg"
 
-export const Footer = () => {
+export default function Footer() {
   return (
     <footer className=" w-full h-73 bg-blue-950">
         {/* footer container */}
