@@ -12,3 +12,7 @@ export default function Header(){
             </div>
     )
 }
+
+
+
+//"../global/Header" from "src/pages/Home.jsx"
