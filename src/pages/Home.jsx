@@ -1,10 +1,10 @@
 import Hero from "../components/Hero";
 import Main from "../components/Main";
 import Subcribe from "../components/Subcribe";
-
-import Content from "../components/content";
-import { Footer } from "../global/Footer";
 import Header from "../global/Header";
+import Content from "../components/Content";
+import { Footer } from "../global/Footer";
+
 
 
 
