@@ -1,7 +1,7 @@
 
 
 import Footer  from '../global/Footer'
-import Header from '../global/Header';
+import Header from '../global/Header.jsx';
 import { Link, useParams } from 'react-router-dom';
 import Data from '../Data.js';
 

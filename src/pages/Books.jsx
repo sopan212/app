@@ -1,5 +1,5 @@
 
-import Footer from "../global/Footer"
+import Footer from "../global/Footer.jsx"
 import Header from "../global/Header.jsx"
 import Card from "../components/Card"
 import { Link } from "react-router-dom"
