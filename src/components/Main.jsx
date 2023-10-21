@@ -23,17 +23,6 @@ export default function Main(){
                 </Link>
              
 
-                <a href="" className=" group px-4 py-4 max-w-4xl rounded-lg shadow-sm bg-secondary mb-4">
-                    <img src={Spotify} alt="" className="w-72 group-hover:-translate-y-3 duration-300" />
-                    <div className="px-5 py-3 border border-border rounded-lg shadow-sm mt-2 text-center font-mono hover:bg-primary hover:bg-opacity-50">Spotify</div>
-
-                </a>
-
-                <a href="" className=" group px-4 py-4 max-w-4xl rounded-lg shadow-sm bg-secondary mb-4">
-                    <img src={Baju} alt="" className="w-72 group-hover:-translate-y-3 duration-300" />
-                    <div className="px-5 py-3 border border-border rounded-lg shadow-sm mt-2 text-center font-mono hover:bg-primary hover:bg-opacity-50">Merch</div>
-
-                </a>
                 {/* </Router> */}
         </div>
         </div>
