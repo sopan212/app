@@ -96,6 +96,18 @@ const Data = [
         isbn:"978-602-73329-0-4",
         deskripsi:"Sesuai Peraturan Presiden Nomor 47 tahun 2009, Kementerian Riset dan Teknologi mempunyai tugas menyelenggarakan urusan di bidang riset dan teknologi dalam pemerintahan untuk membantu presiden dalam menyelenggarakan pemerintahan negara.Deputi Pendayagunaan Ilmu Pengetahuan dan Teknologi (Iptek) sebagai salah satu deputi di Kementerian Riset dan Teknologi memiliki tugas menyiapkan perumusan kebijakan dan koordinasi pelaksanaan kebijakan di bidang Pendayagunaan Iptek Selanjutnya dalam melaksanakan tugas Deputi Pendayagunaan Iptek dibantu oleh asisten deputi. Salah satu asisten deputi adalah Asisten Deputi Iptek Industri Besar yang memiliki tugas melaksanakan penyiapan perumusan kebijakan, koordinasi pelaksanaan kebijakan, serta pemantauan,evaluasi dan analisis di bidang Iptek industri besar. Adapun fungsi yang diselenggarakan Asisten Deputi Iptek Industri Besar adalah penyiapan perumusan kebijakan Iptek industry besar di bidang pemetaan penguasaan, bidang transfer, dan bidang diseminasi.Masalah yang telah diidentifikasi oleh banyak pihak adalah adanya gap antara kebutuhan iptek industri dengan pasokan yang diberikan oleh produsen iptek yang notabene Lembaga litbang dan perguruan tinggi. Gap tersebut juga ditengarai menjadi sebab rendahnya pendayagunaan hasil riset lembaga litbang dan perguruan tinggi oleh industri. Untuk mengatasi kesejangan (gap) tersebut salah satunya dengan memahami karakteristik riset dan pengembangan di industri besar sehingga terjalin komunikasi dan keterbukaan antara Kemenristek selaku perumus kebijakan iptek nasional dengan industri besar."
     },
+    
+    {
+        id:"9",
+        judul:"Serba Serbi IPB 24",
+        penulis:"Yahya Agung Kuntadi",
+        penerbit:"Komunitas Gadjah Mada",
+        halaman:"21x14,5cm",
+        harga:"Rp 50.000",
+        url:"https://res.cloudinary.com/dbad8dq8f/image/upload/v1703073278/t9vfcmob5njaloligbmd.png",
+        isbn:"Dalam proses",
+        deskripsi:"Ada 63 pagi dan siang, tulisan Serba-serbi IPB 24 menyapa sidang pembacanya. Angka tersebut memang disengaja sebagai tetenger tahun kelahiran IPB, 1963. Tidak ada cerita yang tidak ada akhirnya. Demikian juga berlaku terhadap Serba-serbi IPB 24 yang merupakan ungkap rindu memori akan masa indah belajar di IPB dalam persekutuan dengan Tuhan Yesus Kristus bersama saudara-saudara seiman, sesama mahasiswa Kristen IPB Saat mulai menapaki perjalanan di IPB dari hari pertama hingga hari wisuda, begitu banyak peristiwa yang diijinkan Tuhan Allah untuk dialami tiap mahasiswa Kristen. Tentu tiap mahasiswa itu mengalami peristiwa berbeda-beda. Namun, semuanya memiliki tujuan baik dan dalam rencana besar Tuhan Allah yang berkuasa atas hidup orang-orang percaya. Seperti tertulis dalam Yer 29:11 Sebab Aku ini mengetahui rancangan-rancangan apa yang ada pada-Ku mengenai kamu, demikianlah firman TUHAN, yaitu rancangan damai sejahtera dan bukan rancangan kecelakaan, untuk memberikan kepadamu hari depan yang penuh harapan"
+    },
 
 ]
 
