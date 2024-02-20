@@ -108,6 +108,17 @@ const Data = [
         isbn:"Dalam proses",
         deskripsi:"Ada 63 pagi dan siang, tulisan Serba-serbi IPB 24 menyapa sidang pembacanya. Angka tersebut memang disengaja sebagai tetenger tahun kelahiran IPB, 1963. Tidak ada cerita yang tidak ada akhirnya. Demikian juga berlaku terhadap Serba-serbi IPB 24 yang merupakan ungkap rindu memori akan masa indah belajar di IPB dalam persekutuan dengan Tuhan Yesus Kristus bersama saudara-saudara seiman, sesama mahasiswa Kristen IPB Saat mulai menapaki perjalanan di IPB dari hari pertama hingga hari wisuda, begitu banyak peristiwa yang diijinkan Tuhan Allah untuk dialami tiap mahasiswa Kristen. Tentu tiap mahasiswa itu mengalami peristiwa berbeda-beda. Namun, semuanya memiliki tujuan baik dan dalam rencana besar Tuhan Allah yang berkuasa atas hidup orang-orang percaya. Seperti tertulis dalam Yer 29:11 Sebab Aku ini mengetahui rancangan-rancangan apa yang ada pada-Ku mengenai kamu, demikianlah firman TUHAN, yaitu rancangan damai sejahtera dan bukan rancangan kecelakaan, untuk memberikan kepadamu hari depan yang penuh harapan"
     },
+    {
+        id:"10",
+        judul:"Penyamakan Ramah Lingkungan",
+        penulis:"1. Prof. Ir. Ambar Pertiwingrum, M.Sc., Ph.D., IPU., ASEAN. Eng.2. Dr. Ir. Mohammad Zainal Abidin, S.Pt., M.Biotech., IPM.3. Arnieda Asfarina Parameswari, S.Pt.4. Fiantoni Peter Lukas Mangiradja, S.Pt.",
+        penerbit:"Komunitas Gadjah Mada",
+        halaman:"",
+        harga:"Rp 50.0000",
+        url:"https://res.cloudinary.com/dbad8dq8f/image/upload/f_auto,q_auto/h2wogztlqcbqewayg0f8",
+        isbn:"dalam proses",
+        deskripsi:"Penyusunan buku ini bertujuan untuk menyediakan akses terhadap hasil riset di bidang penyamakan kulit dengan memberikan wawasan mendalam tentang metode penyamakan ramah lingkungan dalam industri kulit serta alternatif pengolahan kulit samak lebih lanjut melalui proses ecoprint. Penyusunan buku referensi merupakan salah satu tugas pokok dosen dalam pelaksanaan Tri Dharma Perguruan Tinggi, sekaligus meningkatkan reputasi UGM sebagai World Class University and Research Based University. Materi buku ‘Penyamakan Ramah Lingkungan” terdiri atas 6 bagian utama.",
+},
 
 ]
 
