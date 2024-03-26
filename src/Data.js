@@ -119,6 +119,18 @@ const Data = [
         isbn:"dalam proses",
         deskripsi:"Penyusunan buku ini bertujuan untuk menyediakan akses terhadap hasil riset di bidang penyamakan kulit dengan memberikan wawasan mendalam tentang metode penyamakan ramah lingkungan dalam industri kulit serta alternatif pengolahan kulit samak lebih lanjut melalui proses ecoprint. Penyusunan buku referensi merupakan salah satu tugas pokok dosen dalam pelaksanaan Tri Dharma Perguruan Tinggi, sekaligus meningkatkan reputasi UGM sebagai World Class University and Research Based University. Materi buku ‘Penyamakan Ramah Lingkungan” terdiri atas 6 bagian utama.",
 },
+{
+    id:"11",
+    judul:"Semua Bisa Kreatif",
+    penulis:"Yahya Agung Kuntadi",
+    penerbit:"Komunitas Gadjah Mada",
+    halaman:"93",
+    harga:"Rp 50.0000",
+    url:"https://res.cloudinary.com/dbad8dq8f/image/upload/v1711456784/gpazvptlcwbqxrzdjcm3.jpg",
+    isbn:"dalam proses",
+    deskripsi:"Kreativitas disampaikan dalam buku ini mulai dari pemahaman umum dan sejarah singkatnya lalu perspektif kreativitas pasca pandemi Covid-19 sebab kejadian tersebut sangat memengaruhi banyak orang memandang kreativitas dari perspektif baru. Menyadari kreativitas merupakan topik kajian akademik maka disampaikan juga berbagai model proses kreativitas dari para ahli yang dimulai dari Joy Paul Guilford lalu Paul Torrance hingga beberapa nama lainnya seperti Teresa Amabile, Mark Runco, Robert Sternberg, James Kauffman, Alex Osborn dan Mihaly Csikszentmihalyi. Namun agar lebih mudah memahami proses menjadi kreatif maka buku ini menyampaikan pendekatan berbeda dari apa yang telah disampaikan para ahli tersebut di atas.",
+},
+
 
 ]
 
