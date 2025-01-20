@@ -137,10 +137,21 @@ const Data = [
         penerbit: "Komunitas Gadjah Mada",
         halaman: "118",
         harga: "Rp 50.0000",
-        url: "https://collection.cloudinary.com/dg9qtyw4k/e94b7d5089b600df979840555f321531",
+        url: "https://res.cloudinary.com/dg9qtyw4k/image/upload/v1721649668/hehuqrvhvkzmkgi4cepp.png",
         isbn: "dalam proses",
         deskripsi: "Cerita Minggu Lalu merupakan cerita tentang pertemuan kehidupan berbagai anak manusia di berbagai tempat dalam berbagai peristiwa. Cerita tersebut dibingkai dalam perspektifiman Kristen sebagai suatu bentuk refleksi syukur atas kuasa pemeliharaan Tuhan Allah akan dunia ini. Cerita Minggu Lalu disajikan pendek dengan rujukan pada dunia nyata agar maknanya sampai ke sidang pembaca. Diakhir cerita akan selalu ada pertanyaan refleksi yang mengajak pembaca untuk bertumbuh dalam iman Kristen. Semoga berkenan.",
     },
+    {
+        id: "13",
+        judul: "Ecoprinting Kulit Samak",
+        penulis: "Ir. Roselini Agus�a Andini, S.Pt., M.Pt., IPP.Fiantoni Peter Lukas Mangiradja, S.Pt.Elisa Nirmalawa�, S.Pt.Prof. Ir. Ambar Per�wingrum, M.Sc., Ph.D., IPU., ASEAN. EnDr. Ir. Mohammad Zainal Abidin, S.Pt., M.Biotech., IPM.",
+        penerbit: "Komunitas Gadjah Mada",
+        halaman: "70",
+        harga: "Rp 50.0000",
+        url: "https://res.cloudinary.com/dbad8dq8f/image/upload/v1737379899/Teknik_Ecoprinting_Kulit_Samak_1__page1_image1_vkxwve.jpg",
+        isbn: "dalam proses",
+        deskripsi: "Penyusunan buku ini bertujuan untuk menyediakan akses terhadap hasil riset di bidang penyamakan dan ecoprinting kulit samak dengan memberikan wawasan mendalam tentang metode penyamakan ramah lingkungan dalam industri kulit berikut pengolahan kulit samak lebih lanjut dengan menggunakan metode ecoprinting terhadap kulit samak. Penyusunan buku referensi merupakan salah satu tugas pokok dosen dalam pelaksanaan Tri Dharma Perguruan Tinggi, sekaligus meningkatkan reputasi UGM sebagai World Class University and Research Based University.",
+    }
 
 
 ]
