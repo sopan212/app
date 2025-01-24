@@ -151,9 +151,18 @@ const Data = [
         url: "https://res.cloudinary.com/dbad8dq8f/image/upload/v1737379899/Teknik_Ecoprinting_Kulit_Samak_1__page1_image1_vkxwve.jpg",
         isbn: "dalam proses",
         deskripsi: "Penyusunan buku ini bertujuan untuk menyediakan akses terhadap hasil riset di bidang penyamakan dan ecoprinting kulit samak dengan memberikan wawasan mendalam tentang metode penyamakan ramah lingkungan dalam industri kulit berikut pengolahan kulit samak lebih lanjut dengan menggunakan metode ecoprinting terhadap kulit samak. Penyusunan buku referensi merupakan salah satu tugas pokok dosen dalam pelaksanaan Tri Dharma Perguruan Tinggi, sekaligus meningkatkan reputasi UGM sebagai World Class University and Research Based University.",
-    }
-
-
+    },
+    {
+        id: "14",
+        judul: "79 Minggu Berjalan Bersama Jesus ",
+        penulis: "Yahya Agung Kuntadi",
+        penerbit: "Komunitas Gadjah Mada",
+        halaman: "157",
+        harga: "Rp 50.0000",
+        url: "https://res.cloudinary.com/dbad8dq8f/image/upload/v1737723425/BBJ_page1_image1_w2n1dn.jpg",
+        isbn: "dalam proses",
+        deskripsi: "Se�ap manusia memiliki perjalanan hidup unik tersendiri, baik perjalanan yang penuh suka ataupun duka. Namun sering kali perjalanan itu terlupakan maknanya, bahkan bisa tanpa tujuan yang memiliki ar�. Penulis mencoba mengungkap misteri perjalanan hidup kita, dan mengubah se�ap perjalan hidup seseorang menjadi sangatberar serta memiliki tujuan yang benar dan jelas, sebuah peris wapen�ng perjalanan hidup yang sangat is�mewa, Berjalan BersamaYesus!Kita diajak menjelajahi berbagai tempat di dunia secara geograﬁs,menyelami berbagai dimensi dan peris�wa, melintasi berbagaibudaya, serta menjelajahi masa dan waktu. Dan terlebih pen�ngperjalanan hidup kita adalah perjalanan Iman. Yang benar dan pas�.Meskipun melalui berbagai peris�wa, baik yang menyenangkanataupun sebuahergumulan emosional yang panjang."
+    },
 ]
 
 export default Data
