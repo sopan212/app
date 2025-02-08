@@ -124,7 +124,7 @@ const Data = [
         judul: "Semua Bisa Kreatif",
         penulis: "Yahya Agung Kuntadi",
         penerbit: "Komunitas Gadjah Mada",
-        halaman: "93",
+        halaman: "217",
         harga: "Rp 50.0000",
         url: "https://res.cloudinary.com/dbad8dq8f/image/upload/v1711456784/gpazvptlcwbqxrzdjcm3.jpg",
         isbn: "dalam proses",
