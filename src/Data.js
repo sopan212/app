@@ -148,7 +148,7 @@ const Data = [
         penerbit: "Komunitas Gadjah Mada",
         halaman: "70",
         harga: "Rp 50.0000",
-        url: "https://res.cloudinary.com/dbad8dq8f/image/upload/v1737379899/Teknik_Ecoprinting_Kulit_Samak_1__page1_image1_vkxwve.jpg",
+        url: "https://res.cloudinary.com/dbad8dq8f/image/upload/v1739185389/emgllsjzccqemxeesouc.jpg",
         isbn: "dalam proses",
         deskripsi: "Penyusunan buku ini bertujuan untuk menyediakan akses terhadap hasil riset di bidang penyamakan dan ecoprinting kulit samak dengan memberikan wawasan mendalam tentang metode penyamakan ramah lingkungan dalam industri kulit berikut pengolahan kulit samak lebih lanjut dengan menggunakan metode ecoprinting terhadap kulit samak. Penyusunan buku referensi merupakan salah satu tugas pokok dosen dalam pelaksanaan Tri Dharma Perguruan Tinggi, sekaligus meningkatkan reputasi UGM sebagai World Class University and Research Based University.",
     },
