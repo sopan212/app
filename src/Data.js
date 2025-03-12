@@ -144,7 +144,7 @@ const Data = [
     {
         id: "13",
         judul: "Ecoprinting Kulit Samak",
-        penulis: "Ir. Roselini Agus�a Andini, S.Pt., M.Pt., IPP.Fiantoni Peter Lukas Mangiradja, S.Pt.Elisa Nirmalawa�, S.Pt.Prof. Ir. Ambar Per�wingrum, M.Sc., Ph.D., IPU., ASEAN. EnDr. Ir. Mohammad Zainal Abidin, S.Pt., M.Biotech., IPM.",
+        penulis: "1.	Prof. Ir. Ambar Pertiwingrum, M.Sc., Ph.D., IPU., ASEAN. Eng. 2.	Ir. Roselii Agustia Andini, S.Pt., M.Pt., IPP.3.	Fiantoni Peter Lukas Mangiradja, S.Pt. 4.	Elisa Nirmalawati, S.Pt. 5.	Dr. Ir. Mohammad Zainal Abidin, S.Pt., M.Biotech., IPM.",
         penerbit: "Komunitas Gadjah Mada",
         halaman: "70",
         harga: "Rp 50.0000",
