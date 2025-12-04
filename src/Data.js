@@ -163,6 +163,29 @@ const Data = [
         isbn: "dalam proses",
         deskripsi: "Se�ap manusia memiliki perjalanan hidup unik tersendiri, baik perjalanan yang penuh suka ataupun duka. Namun sering kali perjalanan itu terlupakan maknanya, bahkan bisa tanpa tujuan yang memiliki ar�. Penulis mencoba mengungkap misteri perjalanan hidup kita, dan mengubah se�ap perjalan hidup seseorang menjadi sangatberar serta memiliki tujuan yang benar dan jelas, sebuah peris wapen�ng perjalanan hidup yang sangat is�mewa, Berjalan BersamaYesus!Kita diajak menjelajahi berbagai tempat di dunia secara geograﬁs,menyelami berbagai dimensi dan peris�wa, melintasi berbagaibudaya, serta menjelajahi masa dan waktu. Dan terlebih pen�ngperjalanan hidup kita adalah perjalanan Iman. Yang benar dan pas�.Meskipun melalui berbagai peris�wa, baik yang menyenangkanataupun sebuahergumulan emosional yang panjang."
     },
+        {
+        id: "15",
+        judul: "Perspektif Alternatif  ",
+        penulis: "Yahya Agung Kuntadi",
+        penerbit: "Komunitas Gadjah Mada",
+        halaman: "108 ",
+        harga: "Rp 50.0000",
+        url: "https://res.cloudinary.com/dbad8dq8f/image/upload/c_thumb,w_200,g_face/v1764854018/Buku_Desember_2025_page1_image1_eis4sz.jpg",
+        isbn: "dalam proses",
+        deskripsi: "Yang membedakan buku ini adalah kemampuannya menyentuh sisi terdalam pengalaman manusia universal, keraguan yang menggerogoti, penan�an yang melelahkan, keberanian yang lahir dari keputu asaan, dan sukacita yang muncul di tempat tak terduga. Keunggulannya terletak pada keseimbangan antara kedalaman spiritual dengan narasi yang mengalir natural. Pembaca �dak akan merasa digurui, melainkan diajak berdialog, merenung, dan akhirnya menemukan sendiri bu�ran-bu�ran kebenaran dalam se�apkisah.Buku ini berhasil menjembatani dengan luar biasa antara kedalamanspiritual dan aplikasi prak�s. Se�ap cerita merupakan studi kasussempurna tentang perubahan individu, mulai dari kesadaran (awareness), komitmen pada proses (process commitment), hingga dampak transforma�f (transforma�ve impact). Pola perubahaninilah yang justru sering menjadi tantangan terbesar dalamtransformasi kehidupan, baik personal maupun organisasi.Pendekatan mul�disiplin yang ditawarkan buku ini membuatnya layakmenjadi bahan referensi �dak hanya di lingkungan spiritual, tetapi jugadi dunia pendidikan dan korporat. Bagi akademisi, buku inimenawarkan metode peneli�an nara�f yang inspira�f. Bagi prak�si,buku ini menghadirkan prinsip-prinsip perubahan yang aplika�f. Bagipenulis, buku ini adalah masterclass dalam bercerita yang transforma�f. Dan bagi pencari spiritualitas, buku ini adalah penuntun yang lembut namun mendalam."
+    },
+    {
+        id: "16",
+        judul: "BUMU Indonesia",
+        penulis: "Yahya Agung Kuntadi",
+        penerbit: "Komunitas Gadjah Mada",
+        halaman: "277 ",
+        harga: "Rp 50.0000",
+        url: "https://res.cloudinary.com/dbad8dq8f/image/upload/c_thumb,w_200,g_face/v1764854030/Buku_Desember_2025_page2_image1_dnq7ao.jpg",
+        isbn: "dalam proses",
+        deskripsi:"Beberapa perguruan �nggi ternama di dunia, terutama di Amerika,memiliki kemampuan entrepreneurship dan melahirkan sejumlahstart-up yang mumpuni. Secara efek�f perguruan �nggi tersebutberfungsi sebagai badan bisnis yang sukses, khususnya di bidangteknologi dan inovasi. Stanford University misalnya, memilikihubungan sangat kuat dengan Silicon Valley dan ekosistemkewirausahaan di sekitarnya. Alumni dan Staf Pengajar Stanford secarakonsisten melahirkan ribuan pendiri start-up, bekerjasama denganperusahaan-perusahaan teknologi raksasa, seper� Google, HewletPackard,danYahoo!.MassachusetsIns�tuteofTechnologymelaluipendekataninova�fnyadalamsainsdanteknologi,merupakansalahsatupenghasilstart-upfoundersterbanyakdidunia.EkosistemdisekitarMITdanBoston,yaituRoute128atauTechBostonterbuk�menghasilkanberbagaiperusahaanterkemukadisektorsektorbioteknologi,perangkatlunak,danteknologicanggihberbasisdigital.BegitujugadenganHarvardUniversityyangmemilikisekolahbisnispalingpres�siusdidunia,HarvardBusinessSchool(HBS),telahmelahirkanbanyakCEOdanpemimpinindustriglobal."
+    },
+
 ]
 
 export default Data
