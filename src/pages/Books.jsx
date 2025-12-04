@@ -3,8 +3,8 @@ import Footer from "../global/Footer.jsx"
 import Header from "../global/Header.jsx"
 import SearchBox from "../components/seacrbox.jsx"
 import { Link } from "react-router-dom"
-import { useState } from "react"
-import Data from "../Data"
+import { useState, useEffect } from "react"
+import { getAllBooks } from "../services/bookService"
 
 
 
@@ -12,9 +12,21 @@ import Data from "../Data"
 export default function Books() {
 
   const [searchQuery, setSearchQuery] = useState("")
+  const [currentPage, setCurrentPage] = useState(1)
+  const [allBooks, setAllBooks] = useState([])
+  const booksPerPage = 5
+
+  useEffect(() => {
+    loadBooks()
+  }, [])
+
+  const loadBooks = async () => {
+    const data = await getAllBooks()
+    setAllBooks(data)
+  }
 
   // Filter buku berdasarkan search query
-  const filteredBooks = Data.filter((book) => {
+  const filteredBooks = allBooks.filter((book) => {
     const query = searchQuery.toLowerCase()
     return (
       book.judul.toLowerCase().includes(query) ||
@@ -23,6 +35,23 @@ export default function Books() {
       book.isbn.toLowerCase().includes(query)
     )
   })
+
+  // Pagination logic
+  const totalPages = Math.ceil(filteredBooks.length / booksPerPage)
+  const indexOfLastBook = currentPage * booksPerPage
+  const indexOfFirstBook = indexOfLastBook - booksPerPage
+  const currentBooks = filteredBooks.slice(indexOfFirstBook, indexOfLastBook)
+
+  // Reset to page 1 when search query changes
+  const handleSearchChange = (e) => {
+    setSearchQuery(e.target.value)
+    setCurrentPage(1)
+  }
+
+  const handlePageChange = (pageNumber) => {
+    setCurrentPage(pageNumber)
+    window.scrollTo({ top: 0, behavior: 'smooth' })
+  }
 
   return (
     <>
@@ -48,10 +77,13 @@ export default function Books() {
             <div className="flex justify-center items-center">
               <SearchBox
                 value={searchQuery}
-                onChange={(e) => setSearchQuery(e.target.value)}
+                onChange={handleSearchChange}
                 placeholder="Cari buku berdasarkan judul, penulis, penerbit, atau ISBN..."
                 showClearButton={true}
-                onClear={() => setSearchQuery("")}
+                onClear={() => {
+                  setSearchQuery("")
+                  setCurrentPage(1)
+                }}
               />
             </div>
             
@@ -64,7 +96,9 @@ export default function Books() {
                     {filteredBooks.length === 0 && " - Coba kata kunci lain"}
                   </>
                 ) : (
-                  <>Menampilkan <span className="font-bold text-primary">{Data.length}</span> buku</>
+                  <>
+                    Menampilkan <span className="font-bold text-primary">{indexOfFirstBook + 1}-{Math.min(indexOfLastBook, filteredBooks.length)}</span> dari <span className="font-bold text-primary">{filteredBooks.length}</span> buku
+                  </>
                 )}
               </p>
             </div>
@@ -72,13 +106,13 @@ export default function Books() {
 
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-12">
             <div className="grid grid-cols-1 gap-6">
-              {filteredBooks.length > 0 ? (
-                filteredBooks.map((item) => (
+              {currentBooks.length > 0 ? (
+                currentBooks.map((item) => (
                 <div key={item.id} className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
                   <div className="flex flex-col md:flex-row">
                     <div className="md:w-1/3 p-6 flex items-center justify-center bg-gray-50">
                       <img 
-                        src={item.url} 
+                        src={item.image_url || item.url} 
                         alt={item.judul}
                         className="rounded-lg object-cover max-h-80 w-auto shadow-md"
                       />
@@ -140,6 +174,74 @@ export default function Books() {
                 </div>
               )}
             </div>
+
+            {/* Pagination */}
+            {filteredBooks.length > booksPerPage && (
+              <div className="mt-12 flex justify-center items-center space-x-2">
+                {/* Previous Button */}
+                <button
+                  onClick={() => handlePageChange(currentPage - 1)}
+                  disabled={currentPage === 1}
+                  className={`px-4 py-2 rounded-lg font-mono font-medium transition-all ${
+                    currentPage === 1
+                      ? 'bg-gray-200 text-gray-400 cursor-not-allowed'
+                      : 'bg-white text-primary shadow-md hover:shadow-lg hover:bg-primary hover:text-white'
+                  }`}
+                >
+                  ← Prev
+                </button>
+
+                {/* Page Numbers */}
+                <div className="flex space-x-2">
+                  {[...Array(totalPages)].map((_, index) => {
+                    const pageNumber = index + 1
+                    // Show first page, last page, current page, and pages around current
+                    if (
+                      pageNumber === 1 ||
+                      pageNumber === totalPages ||
+                      (pageNumber >= currentPage - 1 && pageNumber <= currentPage + 1)
+                    ) {
+                      return (
+                        <button
+                          key={pageNumber}
+                          onClick={() => handlePageChange(pageNumber)}
+                          className={`w-10 h-10 rounded-lg font-mono font-medium transition-all ${
+                            currentPage === pageNumber
+                              ? 'bg-primary text-white shadow-lg scale-110'
+                              : 'bg-white text-gray-700 shadow-md hover:shadow-lg hover:bg-primary hover:text-white'
+                          }`}
+                        >
+                          {pageNumber}
+                        </button>
+                      )
+                    } else if (
+                      pageNumber === currentPage - 2 ||
+                      pageNumber === currentPage + 2
+                    ) {
+                      return (
+                        <span key={pageNumber} className="flex items-center px-2 text-gray-400">
+                          ...
+                        </span>
+                      )
+                    }
+                    return null
+                  })}
+                </div>
+
+                {/* Next Button */}
+                <button
+                  onClick={() => handlePageChange(currentPage + 1)}
+                  disabled={currentPage === totalPages}
+                  className={`px-4 py-2 rounded-lg font-mono font-medium transition-all ${
+                    currentPage === totalPages
+                      ? 'bg-gray-200 text-gray-400 cursor-not-allowed'
+                      : 'bg-white text-primary shadow-md hover:shadow-lg hover:bg-primary hover:text-white'
+                  }`}
+                >
+                  Next →
+                </button>
+              </div>
+            )}
           </div>
 
         </div>

@@ -1,9 +1,20 @@
 // import Carosel from "./Carosel"
+import { useState, useEffect } from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import Data from '../Data'
+import { getAllBooks } from '../services/bookService'
 import HeroCard from "./HeroCard";
 export default function Hero(){
+    const [books, setBooks] = useState([]);
+
+    useEffect(() => {
+        loadBooks();
+    }, []);
+
+    const loadBooks = async () => {
+        const data = await getAllBooks();
+        setBooks(data);
+    };
     const responsive = {
         superLargeDesktop: {
           // the naming can be any, depends on you.
@@ -23,14 +34,14 @@ export default function Hero(){
           items: 1
         }
       };
-    const books = Data.map((book)=> {
-    return <HeroCard key={book.id} url={book.url} deskripsi={book.deskripsi} judul={book.judul} penulis={book.penulis} penerbit={book.penerbit} halaman={book.halaman} isbn={book.isbn} ukuran={book.ukuran}  harga={book.harga} />
+    const bookCards = books.map((book)=> {
+    return <HeroCard key={book.id} url={book.image_url || book.url} deskripsi={book.deskripsi} judul={book.judul} penulis={book.penulis} penerbit={book.penerbit} halaman={book.halaman} isbn={book.isbn} ukuran={book.ukuran}  harga={book.harga} />
 
 })
 
     return(
         <>
-        <Carousel autoPlay={true} showDots={true} infinite={true} transitionDuration={500} responsive={responsive}>{books}</Carousel>
+        <Carousel autoPlay={true} showDots={true} infinite={true} transitionDuration={500} responsive={responsive}>{bookCards}</Carousel>
         </>
     )
 }

@@ -1,0 +1,19 @@
+Options -MultiViews
+RewriteEngine On
+RewriteBase /
+
+# Serve correct MIME types
+AddType application/javascript .js .mjs
+AddType text/css .css
+AddType image/svg+xml .svg
+
+# Don't rewrite files that exist
+RewriteCond %{REQUEST_FILENAME} -f
+RewriteRule ^ - [L]
+
+# Don't rewrite directories that exist
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^ - [L]
+
+# For everything else, serve index.html
+RewriteRule ^ /index.html [L]

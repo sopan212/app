@@ -3,8 +3,8 @@
 import Footer  from '../global/Footer'
 import Header from '../global/Header.jsx';
 import { Link, useParams } from 'react-router-dom';
-import { useState } from 'react';
-import Data from '../Data.js';
+import { useState, useEffect } from 'react';
+import { getBookById } from '../services/bookService';
 
 
 
@@ -14,10 +14,19 @@ export default function BooksDetail() {
 
   const { id } = useParams();
   const [isDescriptionOpen, setIsDescriptionOpen] = useState(false);
+  const [selectedBook, setSelectedBook] = useState(null);
+  const [loading, setLoading] = useState(true);
 
-  const selectedBook = Data.find((data) => {
-    return data.id === id
-  })
+  useEffect(() => {
+    loadBook()
+  }, [id])
+
+  const loadBook = async () => {
+    setLoading(true)
+    const book = await getBookById(id)
+    setSelectedBook(book)
+    setLoading(false)
+  }
   // useEffect(() => {
   //   fetch(selectedBook)
   //     .then(response => response.json())
@@ -79,7 +88,7 @@ export default function BooksDetail() {
             <div className="flex flex-col items-center justify-start space-y-6">
               <div className="w-full max-w-md">
                 <img 
-                  src={selectedBook.url} 
+                  src={selectedBook.image_url || selectedBook.url} 
                   alt={selectedBook.judul}
                   className="w-full h-auto rounded-lg shadow-lg object-cover"
                 />
